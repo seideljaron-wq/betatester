@@ -1,0 +1,10 @@
+# BetaSystem Configuration
+
+# Beta tester UUIDs (managed via /beta-tester add/remove)
+beta-testers: []
+
+# Discord webhook for /beta GUI actions (spectator, vanish, speed, etc.)
+webhook-features: "https://discord.com/api/webhooks/1482351177113796700/6foXXUtQMxb16x6hWeAh_a-ZrJp5bVV0ESDZM9VC7gwM2bhIlbvmeF2j-ZN2tjdoQWvp"
+
+# Discord webhook for /bug reports
+webhook-bugs: "https://discord.com/api/webhooks/1482351477476294869/n8GuYJhqwXcObp9JMxdYnqlRlK0PWlua3syW96GXdtpEmJamEJh2tRPsLNDQs9gMZylW"

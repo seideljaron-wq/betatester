@@ -1,0 +1,28 @@
+name: BetaSystem
+version: '${project.version}'
+main: dev.betasystem.BetaSystem
+api-version: '1.20'
+description: Beta tester system with feature GUI and bug reporting
+authors: [RuneMC]
+
+permissions:
+  beta.admin:
+    description: Manage beta testers (add/remove/list)
+    default: op
+  beta.use:
+    description: Use /beta GUI
+    default: false
+
+commands:
+  beta-tester:
+    description: Manage beta testers
+    usage: /beta-tester <add|remove|list> [player]
+    permission: beta.admin
+  beta:
+    description: Open the beta features GUI
+    usage: /beta
+    permission: beta.use
+  bug:
+    description: Report a bug
+    usage: /bug <reason>
+    permission: beta.use
